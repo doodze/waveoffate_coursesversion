@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4809216250174735758
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4809216250174735752}
+  - component: {fileID: 4809216250174735755}
+  - component: {fileID: 4809216250174735754}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4809216250174735752
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4809216250174735758}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4809216250174735755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4809216250174735758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41030efc54b11e44d8d91c0146749e3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _musicMixerGroup: {fileID: -6063786494174567512, guid: c89eb4eeee0a7db43aba10d3d7cd6945, type: 2}
+  _soundEffectsMixerGroup: {fileID: -7192412693788087094, guid: c89eb4eeee0a7db43aba10d3d7cd6945, type: 2}
+  sounds:
+  - audioType: 1
+    name: MainTheme
+    clip: {fileID: 8300000, guid: e1c037d94dbaa854f88360e34e1bfcd8, type: 3}
+    volume: 0.1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+    playOnAwake: 1
+  - audioType: 0
+    name: ButtonSound
+    clip: {fileID: 8300000, guid: 0d6b319fdfd26764c8aebbd9b77fdbe4, type: 3}
+    volume: 0.1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+  - audioType: 0
+    name: PlayButtonSound
+    clip: {fileID: 8300000, guid: b85cf4c884a7aee4ab7010203b71d780, type: 3}
+    volume: 0.1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+  - audioType: 0
+    name: CoinUp
+    clip: {fileID: 8300000, guid: 8721d13d9ff34dc4b94620acc01cbaaf, type: 3}
+    volume: 0.1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+  - audioType: 0
+    name: SimpleGun
+    clip: {fileID: 8300000, guid: 85de8c3528e75694d8b5ebdecef7e1e4, type: 3}
+    volume: 0.1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+  - audioType: 0
+    name: SimpleGunAwake
+    clip: {fileID: 8300000, guid: b7e703d98645a314186534df6cbc5996, type: 3}
+    volume: 0.2
+    pitch: 0.5
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+  - audioType: 0
+    name: RotatingGun
+    clip: {fileID: 8300000, guid: 30442bbb815d04849b88fe0e0bc687e2, type: 3}
+    volume: 0.1
+    pitch: 1.5
+    source: {fileID: 0}
+    loop: 1
+    playOnAwake: 0
+  - audioType: 0
+    name: RotatingGunAwake
+    clip: {fileID: 8300000, guid: 3a63cbfae47a3b247a770d91792e9131, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+  - audioType: 0
+    name: EnemyDamaged
+    clip: {fileID: 8300000, guid: 9eb87ea627439a844928e283a830ce04, type: 3}
+    volume: 0.1
+    pitch: 1.5
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+  - audioType: 0
+    name: ButtonPressed
+    clip: {fileID: 8300000, guid: 9649ad5c7c7ce294e8fa27d83635e76c, type: 3}
+    volume: 0.1
+    pitch: 1.5
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+--- !u!114 &4809216250174735754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4809216250174735758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5512b7eca5512884ba0903b308710544, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
